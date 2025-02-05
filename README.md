@@ -32,5 +32,12 @@ pip install -r requirements.txt
 * Uses the SVM model to predict coefficients.
 * Uses the DNN model to predict the height.
 
+## GUI
+
+Here is an example of the GUI:
+
+![GUI Example](example.jpg)
+
+
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any changes.

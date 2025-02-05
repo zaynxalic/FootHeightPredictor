@@ -54,7 +54,7 @@ def upload_image():
     sex, height = get_height(file_path)  # Assume this function returns gender and height
     if height is not None:
         sex_str = "Male" if sex == 1 else "Female"
-        message.config(text=f"The predicted height for this {sex_str} is: {height[0][0]:.2f}cm")  # Update message
+        message.config(text=f"The predicted height for this {sex_str}\n is: {height[0][0]:.2f}cm")  # Update message
         message.pack()
 
 
