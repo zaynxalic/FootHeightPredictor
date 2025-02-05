@@ -15,6 +15,7 @@ You can install the required packages using the following command:
 
 ```sh
 pip install -r requirements.txt
+```
 
 ## Usage
 
